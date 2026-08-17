@@ -2,57 +2,51 @@ import { SongBook } from "@/types/types";
 
 export const songBooks: SongBook[] = [
   {
-    id: "1",
+    id: "animaciones",
     title: "Animaciones",
     songs: [
       {
-        id: "1",
+        id: "las-llaves-del-cielo-talita-kum",
         title: "Las Llaves del Cielo",
         artist: "Talita Kum",
-        lyrics: [
-          { id: 1, text: "First line of the song lyrics" },
-          { id: 2, text: "Second line stacked directly beneath" },
-          { id: 3, text: "Third line continuing the sequence" },
-        ],
-      },
-      {
-        id: "2",
-        title: "Las Llaves del Cielo",
-        artist: "Talita Kum",
-        lyrics: [
-          { id: 1, text: "First line of the song lyrics" },
-          { id: 2, text: "Second line stacked directly beneath" },
-          { id: 3, text: "Third line continuing the sequence" },
-        ],
-      },
-      {
-        id: "3",
-        title: "Las Llaves del Cielo",
-        artist: "Talita Kum",
-        lyrics: [
-          { id: 1, text: "First line of the song lyrics" },
-          { id: 2, text: "Second line stacked directly beneath" },
-          { id: 3, text: "Third line continuing the sequence" },
-        ],
-      },
-      {
-        id: "4",
-        title: "Las Llaves del Cielo",
-        artist: "Talita Kum",
-        lyrics: [
-          { id: 1, text: "First line of the song lyrics" },
-          { id: 2, text: "Second line stacked directly beneath" },
-          { id: 3, text: "Third line continuing the sequence" },
-        ],
-      },
-      {
-        id: "5",
-        title: "Las Llaves del Cielo",
-        artist: "Talita Kum",
-        lyrics: [
-          { id: 1, text: "First line of the song lyrics" },
-          { id: 2, text: "Second line stacked directly beneath" },
-          { id: 3, text: "Third line continuing the sequence" },
+        stanzas: [
+          {
+            id: "verse-1",
+            type: "verse",
+            lyrics: [
+              { text: "Las llaves del cielo están" },
+              { text: "En tu corazón, en mi corazón" },
+              { text: "Poniendo las manos así" },
+              { text: "Apuntando hacia allí" },
+              { text: "Se abre el corazón" },
+            ],
+          },
+          {
+            id: "chorus-1",
+            type: "chorus",
+            lyrics: [
+              { text: "Alabando, se abre el cielo así" },
+              { text: "Alabando, se abre el cielo así" },
+            ],
+          },
+          {
+            id: "verse-2",
+            type: "verse",
+            lyrics: [
+              { text: "Jesús sos las llaves del cielo" },
+              { text: "Quédate a jugar en mi corazón" },
+              { text: "Jesús sos las llaves del cielo" },
+              { text: "Quédate a vivir, En mi corazón" },
+            ],
+          },
+          {
+            id: "chorus-2",
+            type: "chorus",
+            lyrics: [
+              { text: "Alabando, se abre el cielo así" },
+              { text: "Alabando, se abre el cielo así" },
+            ],
+          },
         ],
       },
     ],

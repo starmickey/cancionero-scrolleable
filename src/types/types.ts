@@ -1,13 +1,18 @@
 export interface LyricLine {
-  id: number;
   text: string;
+}
+
+export interface Stanza {
+  id: string;
+  type: "verse" | "chorus";
+  lyrics: LyricLine[];
 }
 
 export interface Song {
   id: string;
   title: string;
   artist: string;
-  lyrics: LyricLine[];
+  stanzas: Stanza[];
 }
 
 export interface SongBook {

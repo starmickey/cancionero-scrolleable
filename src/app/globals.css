@@ -78,6 +78,7 @@ body {
 }
 
 .song-lyric {
+  font-family: var(--font-clear-sans), sans-serif;
   font-size: 1.25rem;
-  line-height: 1.625;
+  line-height: 1.5;
 }

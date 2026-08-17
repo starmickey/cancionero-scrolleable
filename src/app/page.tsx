@@ -15,21 +15,27 @@ export default async function HomePage() {
 
               <div className="w-full flex flex-col gap-6">
                 {songBook.songs.map((song) => (
-                  <article
-                    key={song.id}
-                    className="py-6 flex flex-col text-center"
-                  >
+                  <article key={song.id} className="py-6 text-center">
                     <header className="mb-4">
                       <h2 className="song-title">{song.title}</h2>
                       <p className="song-author">{song.artist}</p>
                     </header>
 
                     {/* Vertical Lyrics Stack */}
-                    <div className="flex flex-col">
-                      {song.lyrics.map((line) => (
-                        <p key={line.id} className="song-lyric">
-                          {line.text}
-                        </p>
+                    <div className="flex flex-col gap-6">
+                      {song.stanzas.map((stanza) => (
+                        <div
+                          key={stanza.id}
+                          className={
+                            stanza.type === "chorus" ? "font-bold" : ""
+                          }
+                        >
+                          {stanza.lyrics.map((line, idx) => (
+                            <p key={idx} className="song-lyric">
+                              {line.text}
+                            </p>
+                          ))}
+                        </div>
                       ))}
                     </div>
                   </article>
