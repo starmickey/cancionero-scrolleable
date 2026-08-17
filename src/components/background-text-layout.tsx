@@ -17,9 +17,9 @@ const BackgroundTextLayout = ({ children }: { children: ReactNode }) => {
         display: 'inline-block', // Shrinks container height to fit content
       }}
     >
-      <div style={{ padding: '24px', backgroundColor: 'rgba(255, 255, 255, 0.35)' }}>
+      {/* <div style={{ padding: '24px', backgroundColor: 'rgba(255, 255, 255, 0.35)' }}> */}
         {children}
-      </div>
+      {/* </div> */}
     </div>
   );
 };

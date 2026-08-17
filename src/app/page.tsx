@@ -4,7 +4,7 @@ import { songBooks } from "@/data/song-books";
 export default async function HomePage() {
   return (
     <BackgroundTextLayout>
-      <main className="p-6">
+      <main className="px-8 py-10">
         <h1 className="title">Cancionero</h1>
         <p className="subtitle -mt-4 mb-8">Jornada Diocesana de Niños 2026</p>
 
