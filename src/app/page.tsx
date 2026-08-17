@@ -4,7 +4,7 @@ import songBooks from "@/data/song-books.json";
 export default async function HomePage() {
   return (
     <BackgroundTextLayout>
-      <main className="px-8 py-10">
+      <main className="px-10 py-10">
         <h1 className="title">Cancionero</h1>
         <p className="subtitle -mt-4 mb-8">Jornada Diocesana de Niños 2026</p>
 
@@ -24,14 +24,12 @@ export default async function HomePage() {
                     {/* Vertical Lyrics Stack */}
                     <div className="flex flex-col gap-6">
                       {song.stanzas.map((stanza) => (
-                        <div
-                          key={stanza.id}
-                          className={
-                            stanza.type === "chorus" ? "font-bold" : ""
-                          }
-                        >
+                        <div key={stanza.id}>
                           {stanza.lyrics.map((line, idx) => (
-                            <p key={idx} className="song-lyric">
+                            <p
+                              key={idx}
+                              className={`song-lyric song-lyric-${stanza.type}`}
+                            >
                               {line.text}
                             </p>
                           ))}
