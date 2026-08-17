@@ -1,0 +1,268 @@
+[
+  {
+    "id": "misa",
+    "title": "Misa",
+    "songs": [
+      {
+        "id": "las-llaves-del-cielo-talita-kum",
+        "title": "Las Llaves del Cielo",
+        "artist": "Talita Kum",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Las llaves del cielo están"
+              },
+              {
+                "text": "En tu corazón, en mi corazón"
+              },
+              {
+                "text": "Poniendo las manos así"
+              },
+              {
+                "text": "Apuntando hacia allí"
+              },
+              {
+                "text": "Se abre el corazón"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Alabando, se abre el cielo así"
+              },
+              {
+                "text": "Alabando, se abre el cielo así"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Jesús sos las llaves del cielo"
+              },
+              {
+                "text": "Quédate a jugar en mi corazón"
+              },
+              {
+                "text": "Jesús sos las llaves del cielo"
+              },
+              {
+                "text": "Quédate a vivir, En mi corazón"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chorus",
+        "title": "Aleluya",
+        "stanzas": [
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Aleluya, gloria Aleluya (x4)"
+              }
+            ]
+          },
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Cantad alegres, cantad a Dios"
+              },
+              {
+                "text": "habitantes de toda la tierra,"
+              },
+              {
+                "text": "seguid a Dios con alegría"
+              },
+              {
+                "text": "servid a Él con regocijo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "al-altar-del-senor",
+        "title": "Al Altar del Señor",
+        "stanzas": [
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Al altar del Señor vamos con amor"
+              },
+              {
+                "text": "a entregar al Señor lo que Él nos dio"
+              }
+            ]
+          },
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Pan le traemos, trigo de Dios,"
+              },
+              {
+                "text": "para la mesa que El nos preparó;"
+              },
+              {
+                "text": "vino traemos, viña de Dios,"
+              },
+              {
+                "text": "para la fiesta de la comunión"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Luces traemos para alumbrar"
+              },
+              {
+                "text": "la mesa santa de nuestro altar;"
+              },
+              {
+                "text": "flores traemos para alegrar"
+              },
+              {
+                "text": "esta comida de la amistad"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gloria",
+        "title": "Gloria (Folclórico)",
+        "stanzas": [
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Gloria a Dios en el cielo y en la tierra paz a los hombres (x2)"
+              }
+            ]
+          },
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Padre eterno, poder y amor"
+              },
+              {
+                "text": "que hiciste de la nada la Creación"
+              },
+              {
+                "text": "que por salvar al mundo de su pecado, "
+              },
+              {
+                "text": "enviaste desde el cielo a tu Hijo amado"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Jesucristo, Dios hecho hombre,"
+              },
+              {
+                "text": "que llevaste en tu carne nuestros dolores,"
+              },
+              {
+                "text": "que venciste a la muerte crucificado"
+              },
+              {
+                "text": "y reinas junto al Padre resucitado "
+              }
+            ]
+          },
+          {
+            "id": "verse-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Santo Espíritu, viento y fuego,"
+              },
+              {
+                "text": "que hiciste de los pueblos un solo pueblo,"
+              },
+              {
+                "text": "que animas a la Iglesia con tu aliento"
+              },
+              {
+                "text": "para que anuncie al mundo tu Evangelio. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "te-entrego-todo",
+        "title": "Te entrego Todo",
+        "artist": "Talita Kum",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Traigo mis penas, traigo mi amor"
+              },
+              {
+                "text": "Traigo todo lo que yo tengo, te lo entrego a vos"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Te entrego Todo, mi Dios"
+              },
+              {
+                "text": "Te traigo todo lo que soy,"
+              },
+              {
+                "text": "/para que me llenes y que transformes mi corazón/ (x2) "
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Traigo mis dudas, traigo mi error"
+              },
+              {
+                "text": "Traigo todo lo que me cuesta, te lo regalo a Vos"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

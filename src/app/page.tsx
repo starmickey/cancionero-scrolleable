@@ -1,5 +1,5 @@
 import BackgroundTextLayout from "@/components/background-text-layout";
-import { songBooks } from "@/data/song-books";
+import songBooks from "@/data/song-books.json";
 
 export default async function HomePage() {
   return (
@@ -8,7 +8,7 @@ export default async function HomePage() {
         <h1 className="title">Cancionero</h1>
         <p className="subtitle -mt-4 mb-8">Jornada Diocesana de Niños 2026</p>
 
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-8">
           {songBooks.map((songBook) => (
             <section key={songBook.id}>
               <h2 className="section-title mb-2">{songBook.title}</h2>
