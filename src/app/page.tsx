@@ -1,7 +1,10 @@
 import BackgroundTextLayout from "@/components/background-text-layout";
-import songBooks from "@/data/song-books.json";
+import { getSongBooks } from "@/services/getSongBooks";
+import type { UiStanza } from "@/types/song-book";
 
 export default async function HomePage() {
+  const songBooks = await getSongBooks();
+
   return (
     <BackgroundTextLayout>
       <main className="px-10 py-10">
@@ -18,12 +21,14 @@ export default async function HomePage() {
                   <article key={song.id} className="py-6 text-center">
                     <header className="mb-4">
                       <h2 className="song-title">{song.title}</h2>
-                      <p className="song-author">{song.artist}</p>
+                      {song.artist && (
+                        <p className="song-author">{song.artist}</p>
+                      )}
                     </header>
 
                     {/* Vertical Lyrics Stack */}
                     <div className="flex flex-col gap-6">
-                      {song.stanzas.map((stanza) => (
+                      {song.stanzas.map((stanza: UiStanza) => (
                         <div key={stanza.id}>
                           {stanza.lyrics.map((line, idx) => (
                             <p
