@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffaf3;
+  --foreground: #023906;
+  --primary: #08a647;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --font-clear-sans: var(--font-clear-sans), sans-serif;
+  --font-xunga-semi-expanded: var(--font-xunga-semi-expanded), sans-serif;
+  --font-cabin-sketch: var(--font-cabin-sketch), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-clear-sans), sans-serif;
+}
+
+.title {
+  color: var(--primary);
+  font-family: var(--font-xunga-semi-expanded), sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.subtitle {
+  color: var(--primary);
+  font-family: var(--font-cabin-sketch), sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section-title {
+  border: 2px solid var(--primary);
+  border-radius: 0.5rem;
+  color: var(--primary);
+  display: block;
+  font-family: var(--font-cabin-sketch), sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.song-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-cabin-sketch), sans-serif;
+  text-transform: uppercase;
+}
+
+.song-subtitle {
+  font-size: 1.5rem;
+  font-family: var(--font-cabin-sketch), sans-serif;
+  text-transform: uppercase;
+}
+
+.song-author {
+  font-family: var(--font-clear-sans), sans-serif;
+  color: var(--color-primary);
+}
+
+.song-lyric {
+  font-size: 1.25rem;
+  line-height: 1.625;
 }
