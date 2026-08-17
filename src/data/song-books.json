@@ -62,6 +62,75 @@
         ]
       },
       {
+        "id": "gloria",
+        "title": "Gloria (Folclórico)",
+        "stanzas": [
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Gloria a Dios en el cielo y en la tierra paz a los hombres (x2)"
+              }
+            ]
+          },
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Padre eterno, poder y amor"
+              },
+              {
+                "text": "que hiciste de la nada la Creación"
+              },
+              {
+                "text": "que por salvar al mundo de su pecado,"
+              },
+              {
+                "text": "enviaste desde el cielo a tu Hijo amado"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Jesucristo, Dios hecho hombre,"
+              },
+              {
+                "text": "que llevaste en tu carne nuestros dolores,"
+              },
+              {
+                "text": "que venciste a la muerte crucificado"
+              },
+              {
+                "text": "y reinas junto al Padre resucitado"
+              }
+            ]
+          },
+          {
+            "id": "verse-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Gloria a Vos Santo Espíritu, viento y fuego,"
+              },
+              {
+                "text": "que hiciste de los pueblos un solo pueblo,"
+              },
+              {
+                "text": "que animas a la Iglesia con tu aliento"
+              },
+              {
+                "text": "para que anuncie al mundo tu Evangelio"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "chorus",
         "title": "Aleluya",
         "stanzas": [
@@ -149,75 +218,6 @@
         ]
       },
       {
-        "id": "gloria",
-        "title": "Gloria (Folclórico)",
-        "stanzas": [
-          {
-            "id": "chorus-1",
-            "type": "chorus",
-            "lyrics": [
-              {
-                "text": "Gloria a Dios en el cielo y en la tierra paz a los hombres (x2)"
-              }
-            ]
-          },
-          {
-            "id": "verse-1",
-            "type": "verse",
-            "lyrics": [
-              {
-                "text": "Gloria a Vos Padre eterno, poder y amor"
-              },
-              {
-                "text": "que hiciste de la nada la Creación"
-              },
-              {
-                "text": "que por salvar al mundo de su pecado, "
-              },
-              {
-                "text": "enviaste desde el cielo a tu Hijo amado"
-              }
-            ]
-          },
-          {
-            "id": "verse-2",
-            "type": "verse",
-            "lyrics": [
-              {
-                "text": "Gloria a Vos Jesucristo, Dios hecho hombre,"
-              },
-              {
-                "text": "que llevaste en tu carne nuestros dolores,"
-              },
-              {
-                "text": "que venciste a la muerte crucificado"
-              },
-              {
-                "text": "y reinas junto al Padre resucitado "
-              }
-            ]
-          },
-          {
-            "id": "verse-3",
-            "type": "verse",
-            "lyrics": [
-              {
-                "text": "Gloria a Vos Santo Espíritu, viento y fuego,"
-              },
-              {
-                "text": "que hiciste de los pueblos un solo pueblo,"
-              },
-              {
-                "text": "que animas a la Iglesia con tu aliento"
-              },
-              {
-                "text": "para que anuncie al mundo tu Evangelio. "
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "te-entrego-todo",
         "title": "Te entrego Todo",
         "artist": "Talita Kum",
@@ -245,7 +245,7 @@
                 "text": "Te traigo todo lo que soy,"
               },
               {
-                "text": "/para que me llenes y que transformes mi corazón/ (x2) "
+                "text": "/para que me llenes y que transformes mi corazón/ (x2)"
               }
             ]
           },
@@ -258,6 +258,380 @@
               },
               {
                 "text": "Traigo todo lo que me cuesta, te lo regalo a Vos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cordero-de-dios-oscar-pirez",
+        "title": "Cordero de Dios",
+        "artist": "Oscar Pirez",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Cordero de Dios"
+              },
+              {
+                "text": "que quitas el pecado del mundo"
+              },
+              {
+                "text": "Ten piedad de nosotros, ten piedad (x2)"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Cordero de Dios que quitas el pecado del mundo"
+              },
+              {
+                "text": "Danos la paz, dánosla"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vengan-a-comer-el-pan",
+        "title": "Vengan a comer el pan",
+        "artist": "Talita Kum",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Vengan a comer el pan,"
+              },
+              {
+                "text": "pan de vida que nos da"
+              },
+              {
+                "text": "/Su corazón, con bondad,"
+              },
+              {
+                "text": "para que vivamos más/(x2)"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Vengan, todos, a comer el pan"
+              },
+              {
+                "text": "Vengan, todos, ¡su amor nos da!"
+              },
+              {
+                "text": "¡Vive Jesús en este pan!"
+              },
+              {
+                "text": "¡Vive Jesús en este pan!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jesus-te-seguire",
+        "title": "Jesús Te seguiré",
+        "artist": "Daniel Poli",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Jesús, te seguiré"
+              },
+              {
+                "text": "donde me lleves iré"
+              },
+              {
+                "text": "Muéstrame ese lugar donde vives"
+              },
+              {
+                "text": "quiero quedarme contigo allí"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Escuchando tus palabras"
+              },
+              {
+                "text": "algo nuevo nació en mí"
+              },
+              {
+                "text": "es que nunca nadie"
+              },
+              {
+                "text": "nos había venido a hablar así"
+              }
+            ]
+          },
+          {
+            "id": "pre-chorus-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Ahora veo claro, la verdad está en Ti"
+              },
+              {
+                "text": "¡Aleluya! ¡Gloria al Señor!"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Jesús, te seguiré"
+              },
+              {
+                "text": "donde me lleves iré"
+              },
+              {
+                "text": "Muéstrame ese lugar donde vives"
+              },
+              {
+                "text": "quiero quedarme contigo allí"
+              }
+            ]
+          },
+          {
+            "id": "verse-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Hoy he visto cómo se aman"
+              },
+              {
+                "text": "los que viven junto a Ti"
+              },
+              {
+                "text": "hace tiempo que, sediento,"
+              },
+              {
+                "text": "había querido amar así"
+              }
+            ]
+          },
+          {
+            "id": "pre-chorus-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Ahora siento que tu amor"
+              },
+              {
+                "text": "viene hacia mí"
+              },
+              {
+                "text": "¡Aleluya! ¡Gloria al Señor!"
+              }
+            ]
+          },
+          {
+            "id": "verse-4",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Hoy he visto a los leprosos sanos"
+              },
+              {
+                "text": "y a los ciegos ver"
+              },
+              {
+                "text": "hasta el pan multiplicaste"
+              },
+              {
+                "text": "para darnos de comer"
+              }
+            ]
+          },
+          {
+            "id": "pre-chorus-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Oh Maestro mío, todo lo haces bien"
+              },
+              {
+                "text": "¡Aleluya! ¡Gloria al Señor!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "me-hago-chiquitito",
+        "title": "Me hago chiquitito",
+        "artist": "Talita Kum",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Me hago chiquitito,"
+              },
+              {
+                "text": "porque vos sos grande,"
+              },
+              {
+                "text": "Me hago un vasito,"
+              },
+              {
+                "text": "para que me llenes"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Te alabo con mis manos,"
+              },
+              {
+                "text": "Te alabo con mis pies,"
+              },
+              {
+                "text": "Te alabo con mi alma,"
+              },
+              {
+                "text": "Y mi cuerpo también"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Mi Dios te amo, mi Dios te amo,"
+              },
+              {
+                "text": "Cada día más y más y más"
+              }
+            ]
+          },
+          {
+            "id": "verse-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Me quedo calladito"
+              },
+              {
+                "text": "para hablar con vos"
+              },
+              {
+                "text": "Para escucharte y sentir tu amor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "contigo-maria",
+        "title": "Contigo, María",
+        "artist": "Athenas",
+        "stanzas": [
+          {
+            "id": "verse-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Quiero caminar contigo María"
+              },
+              {
+                "text": "Pues tú eres mi madre eres mi guía"
+              },
+              {
+                "text": "Tú eres para mi el más grande ejemplo"
+              },
+              {
+                "text": "De santidad de humildad"
+              }
+            ]
+          },
+          {
+            "id": "verse-2",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Quiero caminar contigo María"
+              },
+              {
+                "text": "No solo un momento todos los días"
+              },
+              {
+                "text": "Necesito tu amor de madre"
+              },
+              {
+                "text": "Tu intercesión ante el señor"
+              }
+            ]
+          },
+          {
+            "id": "chorus-1",
+            "type": "chorus",
+            "lyrics": [
+              {
+                "text": "Guía mis pasos llévame al cielo"
+              },
+              {
+                "text": "Bajo tu manto no tengo miedo"
+              },
+              {
+                "text": "Llena de gracia, ave María"
+              },
+              {
+                "text": "Hoy yo te ofrezco toda mi vida"
+              }
+            ]
+          },
+          {
+            "id": "verse-3",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Quiero caminar contigo María"
+              },
+              {
+                "text": "Madre en el dolor y en la alegría"
+              },
+              {
+                "text": "Tú que fuiste fiel hasta el extremo"
+              },
+              {
+                "text": "Fiel en la cruz, fiel a Jesús"
+              }
+            ]
+          },
+          {
+            "id": "bridge-1",
+            "type": "verse",
+            "lyrics": [
+              {
+                "text": "Celestial princesa mírame con compasión"
+              },
+              {
+                "text": "Hoy te doy mi alma, vida y corazón"
               }
             ]
           }
