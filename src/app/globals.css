@@ -55,6 +55,8 @@ body {
   font-size: 1.5rem;
   font-weight: 800;
   max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0.2rem;
   text-align: center;
   width: 100%;
