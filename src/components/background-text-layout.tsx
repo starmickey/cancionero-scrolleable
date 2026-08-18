@@ -5,7 +5,7 @@ const BackgroundTextLayout = ({ children }: { children: ReactNode }) => {
     <div
       style={{
         width: '100%',
-        maxWidth: '800px',
+        // maxWidth: '800px',
         margin: '0 auto',
         // Tiling behavior
         backgroundImage: 'url("/background.png")',

@@ -14,7 +14,7 @@ export default async function HomePage() {
         <div className="flex flex-col gap-8">
           {songBooks.map((songBook) => (
             <section key={songBook.id}>
-              <h2 className="section-title mb-2">{songBook.title}</h2>
+              <h2 className="section-title mb-2 mx-auto">{songBook.title}</h2>
 
               <div className="w-full flex flex-col gap-6">
                 {songBook.songs.map((song) => (

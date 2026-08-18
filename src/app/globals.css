@@ -54,6 +54,7 @@ body {
   font-family: var(--font-cabin-sketch), sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
+  max-width: 25rem;
   padding: 0.2rem;
   text-align: center;
   width: 100%;
